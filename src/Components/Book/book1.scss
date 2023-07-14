@@ -1,0 +1,160 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to-right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+  }
+  
+  .book1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    .book1Content {
+      width: 100%;
+      padding: 8rem 1.5rem 3rem;
+      display: flex;
+      flex-direction: column;
+      z-index: 100;
+      row-gap: 1rem;
+      align-items: stretch;
+      justify-content: center;
+      margin: auto;
+      color: var(--blackColor);
+      height: max-content;
+  
+      .book1textDiv {
+        padding: 2rem 0;
+  
+        .book1smallText {
+          font-size: 2rem;
+          text-transform: uppercase;
+        }
+  
+        .book1homeTitle {
+          position: relative;
+          font-size: 1.8rem;
+        }
+      }
+  
+      .book1cardDiv {
+        height: 100%;
+        width: 500px;
+        margin: auto;
+        position: relative;
+        padding: 2rem 1rem;
+        background: var(--whiteColor);
+        border-radius: 10px;
+        gap: 4rem;
+  
+        .book1inputGroup {
+
+          label {
+            display: block;
+            color: var(--textColor);
+            padding-top: 40px;
+            padding-bottom: 20px;
+            font-size: 13px;
+            font-weight: 500;
+          }
+
+          .book1label_total {
+            justify-content: space-between;
+            align-items: center;
+    
+            .book1total {
+              color: var(--textColor);
+              font-size: 18px;
+              padding-bottom: 10px;
+            }
+          }
+  
+          .book1input {
+            height: 40px;
+            padding: 0 1rem;
+            background: var(--inputColor);
+            border-radius: 3rem;  
+  
+            input {
+                background: none;
+                outline: none;
+                border: none;
+                width: 100%;
+                font-size: 13px;
+                font-weight: 500;
+  
+              &::placeholder {
+                font-size: 13px;
+              }
+            }
+  
+            .icon {
+              font-size: 18px;
+              color: var(--PrimaryColor);
+              margin-left: 10px;
+            }
+          }
+        }
+  
+        .book1priceInput {
+            display: block;
+            color: var(--textColor);
+            padding-bottom: 20px;
+            font-size: 13px;
+            font-weight: 500;
+
+            .book1label_total {
+                justify-content: space-between;
+                align-items: center;
+  
+            .book1total {
+              color: var(--textColor);
+              font-size: 18px;
+              padding-bottom: 10px;
+            }
+          }
+  
+          .book1input {
+            height: 40px;
+            padding: 0 1rem;
+            background: var(--inputColor);
+            border-radius: 3rem;
+  
+            input[type="range"] {
+                width: 100%;
+                background: blue;
+            }
+          }
+        }
+
+        .nextb{
+          padding-top: 40px;
+            
+            .btn1{
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+                padding: 0.6rem 1.5rem;
+                background: var(--PrimaryColor);
+                border-radius: 3rem;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+        }
+      }
+    }
+}
+  

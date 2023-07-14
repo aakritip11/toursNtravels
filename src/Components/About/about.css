@@ -1,0 +1,101 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to-right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.aboutCard {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.aboutCard .back {
+  background-image: url("../../Assets/img10.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.aboutCard .back .homeContent {
+  width: 100%;
+  padding: 8rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  row-gap: 3rem;
+  align-items: stretch;
+  justify-content: center;
+  margin: auto;
+  color: var(--blackColor);
+  height: -moz-max-content;
+  height: max-content;
+}
+.aboutCard .back .homeContent .textDiv {
+  padding: 2rem 0;
+}
+.aboutCard .back .homeContent .textDiv .homeTitle {
+  position: relative;
+  font-size: 1.8rem;
+}
+.aboutCard .back .homeContent .textDiv .h2 {
+  color: var(--blackColor);
+}
+.aboutCard .back .homeContent .textDiv .h2 span {
+  font-weight: 500;
+}
+.aboutCard .back .homeContent .textDiv .p {
+  margin-top: 20px;
+  font-weight: 300;
+  color: var(--textColor);
+}
+.aboutCard .back .homeContent .imageDiv {
+  overflow: hidden;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.aboutCard .back .homeContent .imageDiv img {
+  height: 300px;
+  width: 300px;
+  transition: 2s ease;
+}
+.aboutCard .back .homeContent .imageDiv:hover img {
+  transform: scale(1.1);
+}
+.aboutCard .back .homeContent .row1 {
+  padding: 2rem 0;
+}
+.aboutCard .back .homeContent .row1 .h1 {
+  color: var(--whiteColor);
+}
+.aboutCard .back .homeContent .row1 .h1 span {
+  font-weight: 500;
+}
+.aboutCard .back .homeContent .row1 .p {
+  margin-top: 20px;
+  font-weight: 300;
+  color: var(--textColor);
+}
+.aboutCard .back .homeContent .imageDiv1 {
+  overflow: hidden;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.aboutCard .back .homeContent .imageDiv1 img {
+  height: 300px;
+  width: 300px;
+  transition: 2s ease;
+}
+.aboutCard .back .homeContent .imageDiv1:hover img {
+  transform: scale(1.1);
+}/*# sourceMappingURL=about.css.map */
