@@ -609,5 +609,4 @@ const Tours = () => {
       </section>
     );
   };
-//export default Data
-export {Data, Tours};
+export default Tours
