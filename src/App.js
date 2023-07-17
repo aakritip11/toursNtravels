@@ -3,9 +3,9 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
-import Tours from './Components/Tours/Tours';
+//import Tours from './Components/Tours/Tours';
 import Main from './Components/Main/Main';
-import Data from './Components/Main/Main';
+import {Data,Tours} from './Components/Tours/Tours';
 import Footer from './Components/Footer/Footer';
 import Loge from './Components/Login/Loge';
 import Signe from './Components/Signup/Signe';
@@ -30,7 +30,8 @@ const App = () => {
         <Route path="/" element={<HomeWithMain />} />
         <Route path="/about" element={<About />} />
         <Route path="/tours" element={<Tours />} />
-        <Route path="/tour-details/:id" element={<TourDetails data={Data} />} />
+        <Route exact path="/TourDetails/:id" element={<TourDetails  />} />
+
         <Route path="/loge" element={<Loge setAuthenticated={setAuthenticated} />} />
         <Route path="/signe" element={<Signe />} />
         <Route

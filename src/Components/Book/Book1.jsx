@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./book1.css";
 import { Link, useNavigate } from "react-router-dom";
-import img15 from'../../Assets/img15.jpg'
+import img22 from'../../Assets/img22.jpg'
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -157,7 +157,7 @@ const Book1 = () => {
         <form onSubmit={handleSubmit}>
         <div className="book1inputGroup">
                 <label htmlFor="name">Cards Accepted</label>
-                <img src={img15}  alt="" />
+                <img src={img22}  alt="" />
         </div>
             <div className="book1inputGroup">
                 <label htmlFor="phone">Card Holder's Phone</label>
