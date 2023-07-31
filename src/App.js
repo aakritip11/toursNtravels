@@ -5,7 +5,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 //import Tours from './Components/Tours/Tours';
 import Main from './Components/Main/Main';
-import {Data,Tours} from './Components/Tours/Tours';
+import {Data, Tours} from './Components/Tours/Tours';
 import Footer from './Components/Footer/Footer';
 import Loge from './Components/Login/Loge';
 import Signe from './Components/Signup/Signe';
