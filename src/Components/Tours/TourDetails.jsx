@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './tours1.css'
-import Tours, {Data} from '../../Components/Tours/Tours';
+import {Data} from '../../Components/Tours/Tours';
 
 const TourDetails = () => {
   const { id } = useParams();
