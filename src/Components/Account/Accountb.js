@@ -7,8 +7,8 @@ Accountb.use(cors({origin: ["http://localhost:3000"]}));
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken")
 
-const JWT_SECRET = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjM0NTY3ODkwIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c'
-const mongoUrl = process.env.MONGO_URL || "mongodb+srv://travel:travel@cluster0.hojqbgy.mongodb.net/?retryWrites=true&w=majority";
+// add your JWT_SECRET
+// add your mongoUrl
 
 mongoose.connect(mongoUrl, {
     useNewUrlParser: true,
